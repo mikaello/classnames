@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.0 / 2019-16.10
+
+* Added alternate `list` version of classNames, which returns a list of classes instead of a single string. 
+
 ## v2.2.6 / 2018-06-08
 
 * Fixed compatibility issue with usage in an es module environment

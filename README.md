@@ -184,6 +184,18 @@ export default class SubmitButton extends Component {
 
 ```
 
+### Alternate `list` version
+
+To return a list of classes instead of a single string, you can use the `list` version:
+
+```js
+var classNames = require('classnames/list');
+
+classNames('foo', 'foo', 'bar'); // => ['foo', 'bar']
+classNames('foo', { foo: false, bar: true }); // => ['bar']
+classNames(null); // => []
+```
+
 
 ## Polyfills needed to support older browsers
 
